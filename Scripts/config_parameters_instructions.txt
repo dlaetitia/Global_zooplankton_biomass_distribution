@@ -1,0 +1,41 @@
+# Config file for the parameters used to prepare the data
+
+## config_parameters_All_C.txt
+
+- max_depth: maximum depth chosen in meters
+
+- region: 
+	- world: study the world 
+	- region: study one or multiple regions separately
+
+- groups_element: example: All_C (in Drago et al., 2022)
+  
+-data_dir: if you answer anything other than none, enter the pathway to download the data. If the data is already downloaded, enter the pathway to it.
+
+- beginning_year_WOA: first year of WOA dataset
+
+- end_year_WOA: last year of WOA dataset
+
+- n_cores: nb of cores to use for the model
+
+Example
+
+region;max_depth;element;data_dir;beginning_year_WOA;end_year_WOA;n_cores;width_figures;height_figures
+region;500;All_C;"";2005;2017;12;18;20
+
+Fill out your choices separating the elements by a semicolon in a .txt document called "config_parameters_", group_element, ".txt"
+example: config_parameters_All_C.txt
+
+
+## config_parameters_layers_All_C.txt
+Fill out the two columns separated by semicolon :
+- start_layer : for the beginning of the layer of interest
+- end_layer : for the end of the layer of interest
+
+
+## config_parameters_regions_All_C.txt
+Put in first column the name of the regions to study.
+Modify the 1.model-1.fit_regions.R script accordingly
+
+
+

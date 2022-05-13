@@ -1,0 +1,4 @@
+zone
+world
+outside_40S_40N
+inside_40S_40N

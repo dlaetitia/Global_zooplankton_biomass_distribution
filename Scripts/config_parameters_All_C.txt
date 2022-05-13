@@ -1,0 +1,2 @@
+region;max_depth;element;data_dir;beginning_year_WOA;end_year_WOA;n_cores;width_figures;height_figures
+region;500;All_C;"";2005;2017;12;18;20
